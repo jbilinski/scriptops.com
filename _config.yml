@@ -6,6 +6,29 @@ github: [metadata]
    - jekyll-coffeescript
    - jekyll-paginate
    - bourbon
+
+# SEO settings
+title: "riverlive"
+title2: "" # default: ""
+description: "IT Tools"
+keywords: "powershell, blog, admin, devops, automation, script"
+url: https://riverlive.com/
+
+
+google_analytics: UA-XXXXX-XX
+repo: http://github.com/jbilinski/
+disqus_shortname: "jbilinski"
+comments: true
+
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
+
+source: ./
+destination: ./_site
+
+
 # Author settings
 author:
   name     : "Jamie Bilinski"
