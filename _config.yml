@@ -5,3 +5,29 @@ github: [metadata]
  gems:
    - jekyll-coffeescript
    - jekyll-paginate
+   - bourbon
+# Author settings
+author:
+  name     : "Jamie Bilinski"
+  job      : "IT Infrastructure Engineer"
+  bio      : "And now I shall replace myself with a small PowerShell script."
+  email    : jbilinski+blog@gmail.com
+  url      : https://riverlive.com
+  github   : http://github.com/jbilinski
+  twitter  : http://twitter.com/GravityNoob
+#  thumb    : /images/author.jpg
+  linkedin : http://linkedin.com/in/jbilinski
+ # facebook : https://www.facebook.com/profile.php?id=123456789
+# social settings
+og_locale: "en_US"
+twitter_card: "summary_large_image"
+twitter_site: "@GravityNoob"
+
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
