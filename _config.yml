@@ -7,11 +7,11 @@ title: "riverlive"
 title2: "" # default: ""
 description: "IT Tools"
 keywords: "powershell, blog, admin, devops, automation, script"
-url: https://riverlive.com/
+url: https://riverlive.com
 
 
 google_analytics: UA-XXXXX-XX
-repo: http://github.com/jbilinski/
+repo: http://github.com/jbilinski
 disqus_shortname: "jbilinski"
 comments: true
 
