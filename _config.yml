@@ -3,14 +3,14 @@ gems:
   - bourbon
 
 # SEO settings
-title: "riverlive"
-title2: "" # default: ""
+title: "river"
+title2: "live" 
 description: "IT Tools"
 keywords: "powershell, blog, admin, devops, automation, script"
 url: https://riverlive.com
 
 
-google_analytics: UA-XXXXX-XX
+google_analytics: UA-79423450-1
 repo: http://github.com/jbilinski
 disqus_shortname: "riverlive"
 comments: true
