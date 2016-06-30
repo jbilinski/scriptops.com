@@ -1,6 +1,7 @@
 gems:
   - jekyll-paginate
   - bourbon
+  - jekyll-gist
 
 # SEO settings
 title: "river"
