@@ -10,7 +10,7 @@ tags: [users, get-aduser]
 
 > This is Markdown Cheatsheet Demo for **Thinkspace**, this Jekyll theme. Please check the raw content of this file for the markdown usage.
 
-{%gist jbilinski/60d371719eb30c88d197371766d197ab file-fileone-ps1 %}
+{%gist jbilinski/60d371719eb30c88d197371766d197ab fileone.ps1 %}
 
 
 
