@@ -10,11 +10,10 @@ tags: [exchange, database]
 ---
 
 Check DB Size and free space
-```powershell
+
 {% gist jbilinski/652e24d4d1e342d81970f88e6b1e45f0 quick-exchange-db-checks-1.ps1 %}
-```
+
 
 Quick mailbox report
-```powershell
+
 {% gist jbilinski/652e24d4d1e342d81970f88e6b1e45f0 quick-exchange-db-checks-2.ps1 %}
-```
