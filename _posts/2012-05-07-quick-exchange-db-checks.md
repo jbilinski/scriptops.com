@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Quick Exchange Database c\Checks"
+title: "Quick Exchange Database Checks"
 comments: true
 date: "2012-05-07"
 description: "quick exchange database checks"
