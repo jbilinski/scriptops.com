@@ -15,6 +15,7 @@ I often get requests for name changes of established customers. Maintaining the 
 The Disable and Enable of the address policy corrects the email address by adding the new rules.
 
 Old addresses are preserved, new ones are added:
+
 ```posh
 (get-mailbox jbilinski).emailaddresses
 
@@ -25,4 +26,6 @@ X400:C=US;A= ;P=Contoso;O=Exchange;S=Bilinski;G=Jamie;I=JCB;
 x400:C=US;A= ;P=Contoso;O=Exchange;S=Bilinski;G=Jan;I=JCB;
 SMTP:Jamie.Bilinski@Contoso.com
 smtp:Jan.Bilinski@Contoso.com
+
 ```
+
