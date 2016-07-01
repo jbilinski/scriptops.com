@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "easy AD and Exchange name change"
+title: "Easy AD and Exchange name change"
 comments: true
 date: "2013-09-09"
 description: "easy ad and exchange name change"
