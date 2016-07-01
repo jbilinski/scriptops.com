@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "PowerShell syntax for using add and remove keyword methods"
+title: "PowerShell syntax for using *add* and *remove* keyword methods"
 comments: true
 date: "2013-10-14"
 description: "powershell syntax for using add and remove keyword methods"
