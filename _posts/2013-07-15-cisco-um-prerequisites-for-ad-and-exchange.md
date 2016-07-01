@@ -9,11 +9,13 @@ catagories: [powershell, script, interactive, reference]
 tags: [exchange, ad, cisco, messaging]
 ---
 
-A few AD and Exchange prerequisites required for Cisco Unified Messaging service.  After SP2 RU3 Exchange throttling policies moved to the mailbox level, so script was required for proper setup.
-## Footnote
+A few AD and Exchange prerequisites required for Cisco Unified Messaging service[[^1]].  After SP2 RU3 Exchange throttling policies moved to the mailbox level, so script was required for proper setup.
+
 {% gist jbilinski/45dd262164225e19ccca36b41eb46a47 cisco-um-prerequisites-for-ad-and-exchange-1.ps1 %}
 
 ---
+
 Footnote:
+
 [^1]: 1: Cisco UC reference [http://www.cisco.com/en/US/docs/voice_ip_comm/connection/8x/unified_messaging/guide/85xcucumg020.html#wp1195262](http://www.cisco.com/en/US/docs/voice_ip_comm/connection/8x/unified_messaging/guide/85xcucumg020.html#wp1195262)
 
