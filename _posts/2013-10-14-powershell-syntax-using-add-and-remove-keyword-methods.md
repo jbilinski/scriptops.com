@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "PowerShell syntax for using *add* and *remove* keyword methods"
+title: "PowerShell syntax using add and remove keyword methods"
 comments: true
 date: "2013-10-14"
-description: "powershell syntax for using add and remove keyword methods"
+description: "powershell syntax using add and remove keyword methods"
 keywords: "powershell, syntax, hash table"
 categories: [powershell, script, interactive, reference]
 tags: [example, hash table]
