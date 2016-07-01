@@ -5,7 +5,7 @@ comments: true
 date: "2013-06-19"
 description: "force exchange address book update"
 keywords: "powershell, exchange, address book"
-catagories: [powershell, script, interactive, reference]
+categories: [powershell, script, interactive, reference]
 tags: [exchange, address book]
 ---
 

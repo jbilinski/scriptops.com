@@ -5,7 +5,7 @@ date: "2016-06-01"
 comments: true
 description: "Markdown Test..."
 keywords: "markdown, typography components, dummy content"
-catagories:  [powershell, script]
+categories:  [powershell, script]
 tags: [users, get-aduser]
 ---
 

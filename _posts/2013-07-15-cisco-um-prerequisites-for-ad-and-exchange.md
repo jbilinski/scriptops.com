@@ -5,7 +5,7 @@ comments: true
 date: "2013-07-15"
 description: "cisco um prerequisites for ad and exchange"
 keywords: "powershell, exchange, cisco uc"
-catagories: [powershell, script, interactive, reference]
+categories: [powershell, script, interactive, reference]
 tags: [exchange, ad, cisco, messaging]
 ---
 
