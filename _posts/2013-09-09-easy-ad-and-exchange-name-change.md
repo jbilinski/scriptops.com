@@ -15,7 +15,7 @@ I often get requests for name changes of established customers. Maintaining the 
 The Disable and Enable of the address policy corrects the email address by adding the new rules.
 
 Old addresses are preserved, new ones are added:
-```powershell
+```posh
 (get-mailbox jbilinski).emailaddresses
 
 SIP:jamie.bilinski@Contoso.com
