@@ -16,7 +16,7 @@ The Disable and Enable of the address policy corrects the email address by addin
 
 Old addresses are preserved, new ones are added:
 
-```posh
+```PowerShell
 (get-mailbox jbilinski).emailaddresses
 
 SIP:jamie.bilinski@Contoso.com
