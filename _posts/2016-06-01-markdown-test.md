@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "Markdown Test"
+date: "2016-06-01"
 comments: true
 description: "Markdown Test..."
 keywords: "markdown, typography components, dummy content"
-catagories:  [powershel, script]
+catagories:  [powershell, script]
 tags: [users, get-aduser]
 ---
 

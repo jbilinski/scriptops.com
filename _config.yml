@@ -19,6 +19,8 @@ comments: true
 # Build settings
 permalink   : /:year/:title/
 markdown    : kramdown
+kramdown:
+  input: GFM
 highlighter : rouge
 
 source: ./
