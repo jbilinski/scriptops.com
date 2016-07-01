@@ -5,7 +5,7 @@ comments: true
 date: "2012-05-07"
 description: "quick exchange database checks"
 keywords: "powershell, exchange, database, size"
-catagories:  [powershell, script, interactive]
+catagories: [powershell, script, interactive, reference]
 tags: [exchange, database]
 ---
 
