@@ -2,7 +2,7 @@
 layout: post
 title: "PowerCLI new VM from template"
 comments: true
-date: "2013-09-22"
+date: "2015-09-22"
 description: "powercli new vm from template"
 keywords: "powercli, vm"
 categories: [powershell, script, interactive, reference]
