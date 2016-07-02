@@ -25,7 +25,10 @@ Here's the full script
 
 {% gist jbilinski/ef5234fdba85289a68f32a5ecaafc4d0 new-daily-password-and-a-cisco-guest-wireless-portal-1.ps1 %}
 
-References
+---
+
+References:
+
 [^1]: 1: Cisco WLC reference [http://www.cisco.com/c/en/us/products/wireless/wireless-lan-controller/index.html](http://www.cisco.com/c/en/us/products/wireless/wireless-lan-controller/index.html)
 [^2]: 2: Kiwi CatTools reference [http://www.solarwinds.com/kiwi-cattools.aspx](http://www.solarwinds.com/kiwi-cattools.aspx)
 
