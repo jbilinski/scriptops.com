@@ -15,10 +15,10 @@ This script is being used to implement a wireless guest portal with a semi-rando
 
 Here's what I had to work with:
 
-*Windows Server
-*Webserver (IIS)
-*Cisco Wireless Lan Controllers[[^1]]
-*Existing router config managment tool (CatTools)[[^2]]
+* Windows Server
+* Webserver (IIS)
+* Cisco Wireless Lan Controllers[[^1]]
+* Existing router config managment tool (CatTools)[[^2]]
 
 
 Here's the full script
