@@ -17,8 +17,8 @@ Here's what I had to work with:
 
 * Windows Server
 * Webserver (IIS)
-* Cisco Wireless Lan Controllers[[^1]]
-* Existing router config managment tool (CatTools)[[^2]]
+* Cisco Wireless Lan Controllers  [[^1]]
+* Existing router config managment tool (CatTools)  [[^2]]
 
 
 Here's the full script
