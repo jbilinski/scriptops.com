@@ -31,13 +31,13 @@ destination: ./_site
 author:
   name     : "Jamie Bilinski"
   job      : "IT Infrastructure Engineer"
-  bio      : "And now I shall replace myself with a small PowerShell script."
+  bio      : "Disruptive technologies are automating my work and obsoleting decades of knowledge! --it's about time."
   email    : jbilinski+blog@gmail.com
   url      : https://about.me/jbilinski
   github   : http://github.com/jbilinski
   twitter  : http://twitter.com/GravityNoob
   linkedin : http://linkedin.com/in/jbilinski
-  #  thumb    : /images/author.jpg
+  thumb    : http://gravatar.com/avatar/7ef7f59e6bfa3188f7999841f7382348
   # facebook : https://www.facebook.com/profile.php?id=123456789
 # social settings
 og_locale: "en_US"
