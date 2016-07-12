@@ -4,11 +4,11 @@ gems:
   - jekyll-gist
 
 # SEO settings
-title: "river"
-title2: "live" 
-description: "IT Tools"
+title: "Script"
+title2: "Ops" 
+description: "IT tools for our robotic overlords"
 keywords: "powershell, blog, admin, devops, automation, script"
-url: https://riverlive.com
+url: https://scriptops.com
 
 
 google_analytics: UA-79423450-1
@@ -42,7 +42,7 @@ author:
 # social settings
 og_locale: "en_US"
 twitter_card: "summary_large_image"
-twitter_site: "@GravityNoob"
+twitter_site: "@ScriptOps"
 
 # navbar pages
 navbar:
