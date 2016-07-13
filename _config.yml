@@ -2,6 +2,7 @@ gems:
   - jekyll-paginate
   - bourbon
   - jekyll-gist
+  - jekyll-sitemap
 
 # SEO settings
 title: "Script"
