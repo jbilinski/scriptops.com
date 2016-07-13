@@ -9,8 +9,6 @@ categories: [powershell, script, automation]
 tags: [cisco, wireless, guest]
 ---
 
-> Update: This method has worked very well for a couple years now.  I should probably expand on this post and I would like to try using new windows/powershell OpenSSH code instead of CatTools.
-
 This script is being used to implement a wireless guest portal with a semi-random password and update an internal website with the current password.
 
 Here's what I had to work with:
