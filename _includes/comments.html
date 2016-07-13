@@ -12,10 +12,10 @@
               this.page.title = '{{ page.title }}';
           };
           
-          (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+          (function() {  
               var d = document, s = d.createElement('script');
               
-              s.src = '//' + '{{ site.disqus_shortname }}'+ '.disqus.com/embed.js';  // IMPORTANT: Replace EXAMPLE with your forum shortname!
+              s.src = '//{{ site.disqus_shortname }}.disqus.com/embed.js';  
               
               s.setAttribute('data-timestamp', +new Date());
               (d.head || d.body).appendChild(s);
