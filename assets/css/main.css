@@ -1124,9 +1124,9 @@ hr {
     color: #099
 }
 .gist .blob-num{
-    width: 4px
+    width: 4px !important
 }
 .gist .gist-meta {
-    padding: 3px;
+    padding: 3px !important;
     font-size: 10px
 }
