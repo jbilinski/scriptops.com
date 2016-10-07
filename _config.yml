@@ -30,7 +30,7 @@ destination: ./_site
 
 # Author settings
 author:
-  name     : "Jamie Bilinski"
+  name     : "Jan Bilinski"
   job      : "IT Infrastructure Engineer"
   bio      : "Disruptive technologies are automating my work and obsoleting decades of knowledge! --thanks, let me help with that."
   email    : jbilinski+blog@gmail.com
