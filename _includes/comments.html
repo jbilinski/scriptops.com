@@ -1,28 +1,10 @@
-{% if site.disqus_shortname and page.comments != false %}
-<aside id="comments" class="disqus">
-  <div class="container">
-    <h3><i class="icon icon-comments-o"></i> Comments</h3>
-    <div id="disqus_thread"></div>
-    <script type="text/javascript"> 
-       var disqus_shortname = '{{ site.disqus_shortname }}'; 
-       {% if page.comments == true %} 
-        var disqus_identifier = '{% if page.disqus_identifier %}{{ page.disqus_identifier}}{% else %}{{ page.id }}{% endif %}'; 
-        var disqus_url = '{{ site.url }}{{ page.url }}'; 
-        var disqus_title = '{{ page.title }}';
-        var disqus_script = 'embed.js'; 
-       {% endif %} 
-     (function () { 
-     {% if page.comments == true %}       
-       var embedScript = document.createElement('script'); 
-       embedScript.type = 'text/javascript'; 
-       embedScript.async = true; 
-       embedScript.src = 'https://' + disqus_shortname + '.disqus.com/embed.js'; 
-       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(embedScript); 
-     {% endif %} 
-       var countScript = document.createElement('script'); 
-       countScript.type = 'text/javascript'; 
-       countScript.async = true; 
-       countScript.src = 'https://' + disqus_shortname + '.disqus.com/count.js'; 
-       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(countScript); 
-     }()); 
+{% if page.comments != false %}
+<script src="https://utteranc.es/client.js"
+        repo="jbilinski/jbilinski.github.io"
+        issue-term="og:title"
+        label="ScriptOps💬"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
 </script> {% endif %}
