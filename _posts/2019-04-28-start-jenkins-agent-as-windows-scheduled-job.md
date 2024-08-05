@@ -20,7 +20,7 @@ In this case, powerShell scheduled jobs has a useful _AtStartup_ trigger propert
  - Change pipeline and java log to path or file name of your choice.
  - I have seen long windows update restarts interfere with the _AtStartup_ trigger. Adding a contingency trigger will help in this case. 
 
- ### References:
+### References:
  - [Jenkins Agent](https://jenkins.io/doc/book/agents/)
  - [PowerShell Scheduled Jobs](https://docs.microsoft.com/en-us/powershell/module/psscheduledjob/)
  - [Scheduled Job Trigger Parameters](https://learn.microsoft.com/en-us/powershell/module/psscheduledjob/new-jobtrigger/#parameters)
