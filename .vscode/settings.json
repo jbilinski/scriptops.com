@@ -1,3 +1,4 @@
 {
-    "codeQL.createQuery.qlPackLocation": "/Users/jbilinski/repo/jbilinski.github.io"
+    "codeQL.createQuery.qlPackLocation": "/Users/jbilinski/repo/jbilinski.github.io",
+    "cSpell.enabled": true
 }
