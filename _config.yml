@@ -1,3 +1,4 @@
+# Plugins
 plugins:
   - jekyll-paginate
   - bourbon
@@ -9,63 +10,77 @@ title: "Script"
 title2: "Ops"
 description: "DevSecOps Blog"
 keywords: "powershell, blog, admin, devops, automation, script"
-url: https://scriptops.com
+url: "https://scriptops.com"
 
-google_analytics: UA-79423450-2
-repo: https://github.com/jbilinski
+# Analytics and comments
+google_analytics: "UA-79423450-2"
+repo: "https://github.com/jbilinski"
 disqus_shortname: "scriptops"
 comments: true
 
-# Build settings
-permalink: /:year/:title/
-markdown: kramdown
-kramdown:
-  input: GFM
-highlighter: rouge
+# Filtering Content
+show_drafts: null
+limit_posts: 0
+future: false
+unpublished: false
 
+# Directories
 source: ./
 destination: ./_site
+
+# Collections
+collections:
+  posts:
+    output: true
 
 # Author settings
 author:
   name: "Jan Bilinski"
   job: "IT Security Engineer"
-  bio: "++ 'Data training your ML model' <br> -- <del>'IT tools for our robotic overloards'</del>&nbsp;<em><a href='https://github.com/jbilinski/jbilinski.github.io/commit/7b8f8f68a3c16809339c251da3658920ed22f96d#diff-ecec67b0e1d7e17a83587c6d27b6baaaa133f42482b07bd3685c77f34b62d883'>commit 7b8f8f6</a> on 7/12/2016</em>"
+  bio: "Community contributions or <br>++ 'data training your ML model' <br> -- <del>'IT tools for our robotic overlords'</del>&nbsp;<em><a href='https://github.com/jbilinski/jbilinski.github.io/commit/7b8f8f68a3c16809339c251da3658920ed22f96d#diff-ecec67b0e1d7e17a83587c6d27b6baaaa133f42482b07bd3685c77f34b62d883'>commit 7b8f8f6</a> on 7/12/2016</em>"
   email: jbilinski+blog@gmail.com
   url: https://about.me/jbilinski
   github: https://github.com/jbilinski
   twitter: https://twitter.com/ScriptOps
   linkedin: https://linkedin.com/in/jbilinski
   thumb: https://gravatar.com/avatar/7ef7f59e6bfa3188f7999841f7382348
-  # facebook : https://www.facebook.com/profile.php?id=123456789
-# social settings
+
+# Social settings
 og_locale: "en_US"
 twitter_card: "summary_large_image"
 twitter_site: "@ScriptOps"
 
-# navbar pages
+# Navbar pages
 navbar:
   - slug: about
     title: About
   - slug: blog
     title: Blog
 
+safe: false
+include: [".htaccess"]
 exclude:
-  [
-    "gulp",
-    "node_modules",
-    "bower",
-    "bower_components",
-    "config.rb",
-    "src",
-    "Gemfile",
-    "Gemfile.lock",
-    ".rvmrc",
-    ".rbenv-version",
-    "package.json",
-    "gulpfile.js",
-    "README.md",
-    "Rakefile",
-    "changelog.md",
-  ]
+  - "gulp"
+  - "node_modules"
+  - "bower"
+  - "bower_components"
+  - "config.rb"
+  - "src"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - ".rvmrc"
+  - ".rbenv-version"
+  - "package.json"
+  - "gulpfile.js"
+  - "README.md"
+  - "Rakefile"
+  - "changelog.md"
+  - "vendor/bundle/"
+  - "vendor/cache/"
+  - "vendor/gems/"
+  - "vendor/ruby/"
+
 encoding: utf-8
+keep_files: [".git", ".svn"]
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+strict_front_matter: false

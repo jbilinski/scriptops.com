@@ -9,9 +9,9 @@ categories: [powershell, tool, script, build, reference]
 tags: [jenkins, agent, windows]
 ---
 
-Running a Jenkins agent on a windows build machine can sometimes get tricky when you need a console session for interaction with policy restricted hardware. Or the service wrapper limits JVM rights in a way that prevents compliers or test suites from running. 
+Running a Jenkins agent on a windows build machine can be unstable at restart or lack needed rights. In some cases you require a console session for interaction with policy restricted hardware. Or, the service wrapper limits JVM rights in a way that prevents compilers or test suites from running. 
 
-In this case, powerShell scheduled jobs has a useful _AtStartup_ trigger property as well as a _RunElevated_ job option. 
+In these cases, PowerShell scheduled jobs module has a useful _AtStartup_ trigger property as well as a _RunElevated_ job option. 
 
 {% gist jbilinski/be57127fd4dc9f31aa045aec83e6f45f start-jenkins-agent-as-windows-scheduled-job.ps1 %}
 
@@ -19,6 +19,7 @@ In this case, powerShell scheduled jobs has a useful _AtStartup_ trigger propert
  - Add '-noCertificateCheck' java argument if you use a jenkins job to bootstrap agent chain of trust. 
  - Change pipeline and java log to path or file name of your choice.
  - I have seen long windows update restarts interfere with the _AtStartup_ trigger. Adding a contingency trigger will help in this case. 
+ - *"kick the can" and move the shared secret to a "secure" variable, file, or registry key. Please leave feedback if you have a better solution. 
 
 ### References:
  - [Jenkins Agent](https://jenkins.io/doc/book/agents/)
