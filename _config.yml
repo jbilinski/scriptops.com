@@ -8,14 +8,14 @@ plugins:
 # SEO settings
 title: "Script"
 title2: "Ops"
-description: "DevSecOps Blog"
-keywords: "powershell, blog, admin, devops, automation, script"
+description: "Dev+Sec+Ops Blog"
+keywords: "security, powershell, admin, devops, automation, GRC"
 url: "https://scriptops.com"
 
 # Analytics and comments
 google_analytics: "UA-79423450-2"
 repo: "https://github.com/jbilinski"
-disqus_shortname: "scriptops"
+# disqus_shortname: "scriptops"
 comments: true
 
 # Filtering Content
