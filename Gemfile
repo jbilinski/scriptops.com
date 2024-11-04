@@ -8,6 +8,6 @@ group :jekyll_plugins do
 end
 gem 'html-proofer'
 # gem "jekyll", "~> 4.2.0"
-gem "webrick", "~> 1.7" # Required for Ruby 3.0+
+gem "webrick", "~> 1.8" # Required for Ruby 3.0+
 gem 'tzinfo'
 gem 'tzinfo-data'
