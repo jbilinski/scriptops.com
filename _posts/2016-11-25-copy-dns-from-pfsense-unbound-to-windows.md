@@ -1,12 +1,22 @@
 ---
 layout: post
-title: "Copy DNS from pfSense unbound to windows"
+title: Copy DNS from pfSense unbound to windows
 comments: true
-date: "2016-11-25"
-description: "copy dns from pfsense unbound to windows"
-keywords: "dns, pfsense, unbound"
-categories: [powershell, tool, script, interactive, reference]
-tags: [dns, pfsense, unbound]
+date: 2016-11-25
+description: copy dns from pfsense unbound to windows
+keywords: dns, pfsense, unbound
+categories:
+    - powershell
+    - tool
+    - script
+    - interactive
+    - reference
+tags:
+    - dns
+    - pfsense
+    - unbound
+preview: /previews/20161125.png
+slug: copy-dns-pfsense-unbound-windows
 ---
 
 This script will assist in moving from unbound DNS on pfSense to Windows Server DNS. It parses the backup XML pfSense creates and creates A and CNAME records in the windows DNS zone.
