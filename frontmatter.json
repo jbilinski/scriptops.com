@@ -70,5 +70,7 @@
       "path": "[[workspace]]/_posts"
     }
   ],
-  "frontMatter.git.enabled": true
+  "frontMatter.git.enabled": true,
+  "frontMatter.website.host": "https://scriptops.com",
+  "frontMatter.git.commitMessage": "Content Update"
 }
