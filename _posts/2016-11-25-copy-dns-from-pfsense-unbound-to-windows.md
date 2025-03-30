@@ -15,8 +15,10 @@ tags:
     - dns
     - pfsense
     - unbound
-preview: /previews/20161125.png
+preview: /img/previews/20161125.png
+image: /img/posts/20161125.png
 slug: copy-dns-pfsense-unbound-windows
+fmContentType: default
 ---
 
 This script will assist in moving from unbound DNS on pfSense to Windows Server DNS. It parses the backup XML pfSense creates and creates A and CNAME records in the windows DNS zone.

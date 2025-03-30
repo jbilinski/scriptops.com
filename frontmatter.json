@@ -7,45 +7,13 @@
       "previewPath": null,
       "fields": [
         {
-          "title": "Title",
-          "name": "title",
-          "type": "string"
-        },
-        {
-          "title": "Description",
-          "name": "description",
-          "type": "string"
-        },
-        {
-          "title": "Publishing date",
-          "name": "date",
-          "type": "datetime",
-          "default": "{{now}}",
-          "isPublishDate": true
-        },
-        {
-          "title": "Content preview",
-          "name": "preview",
-          "type": "image"
-        },
-        {
-          "title": "Is in draft",
-          "name": "draft",
-          "type": "draft"
-        },
-        {
-          "title": "Tags",
-          "name": "tags",
-          "type": "tags"
-        },
-        {
-          "title": "Categories",
-          "name": "categories",
-          "type": "categories"
-        },
-        {
           "title": "layout",
           "name": "layout",
+          "type": "string"
+        },
+        {
+          "title": "title",
+          "name": "title",
           "type": "string"
         },
         {
@@ -54,8 +22,33 @@
           "type": "boolean"
         },
         {
+          "title": "date",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "description",
+          "name": "description",
+          "type": "string"
+        },
+        {
           "title": "keywords",
           "name": "keywords",
+          "type": "string"
+        },
+        {
+          "title": "categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "preview",
+          "name": "preview",
           "type": "string"
         }
       ]
@@ -63,14 +56,5 @@
   ],
   "frontMatter.framework.id": "jekyll",
   "frontMatter.content.publicFolder": "assets",
-  "frontMatter.preview.host": "http://localhost:4000",
-  "frontMatter.content.pageFolders": [
-    {
-      "title": "posts",
-      "path": "[[workspace]]/_posts"
-    }
-  ],
-  "frontMatter.git.enabled": true,
-  "frontMatter.website.host": "https://scriptops.com",
-  "frontMatter.git.commitMessage": "Content Update"
+  "frontMatter.preview.host": "http://localhost:4000"
 }
