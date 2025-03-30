@@ -1,7 +1,7 @@
 # The Site Configuration
 
 # Import the theme
-theme: chirpy
+remote_theme: cotes2020/jekyll-theme-chirpy
 lang: en
 timezone: America/Los_Angeles
 
@@ -218,4 +218,11 @@ jekyll-archives:
     category: /categories/:name/
 # delete later
 plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-sitemap
   - jekyll-gist
+  
