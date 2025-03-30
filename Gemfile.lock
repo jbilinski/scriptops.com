@@ -119,7 +119,7 @@ GEM
     metrics (0.12.2)
     net-http (0.6.0)
       uri
-    nokogiri (1.18.5-x86_64-darwin)
+    nokogiri (1.18.6-x86_64-darwin)
       racc (~> 1.4)
     octokit (4.25.1)
       faraday (>= 1, < 3)
@@ -167,7 +167,7 @@ PLATFORMS
 DEPENDENCIES
   html-proofer (~> 5.0)
   jekyll-gist (~> 1.5)
-  jekyll-remote-theme (~> 0.4.2)
+  jekyll-remote-theme
   jekyll-sass-converter (~> 2.1.0)
   jekyll-theme-chirpy!
   tzinfo (>= 1, < 3)
