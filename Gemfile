@@ -15,3 +15,5 @@ gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin]
 
 gem "jekyll-gist", "~> 1.5"
 
+gem "jekyll-remote-theme", "~> 0.4.2"
+
