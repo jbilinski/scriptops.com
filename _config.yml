@@ -115,7 +115,7 @@ comments:
     category: Post Discussions
     category_id: DIC_kwDOGChPVM4B_A0Q
     mapping: specific
-    term:{{ page.id }}
+    # term:{{ page.id }}
     strict: 0
     input_position: bottom
     lang: en
