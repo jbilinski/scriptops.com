@@ -16,7 +16,6 @@ tags:
     - pfsense
     - unbound
 preview: /img/previews/20161125.png
-image: /img/posts/20161125.png
 slug: copy-dns-pfsense-unbound-windows
 fmContentType: default
 ---
