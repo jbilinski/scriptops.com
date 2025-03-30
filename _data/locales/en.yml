@@ -20,7 +20,7 @@ tabs:
 search:
   hint: search
   cancel: Cancel
-  no_results: Oops! No results found.
+  no_results: No results found.
 
 panel:
   lastmod: Recently Updated
@@ -43,7 +43,16 @@ copyright:
 meta: Using the :THEME theme for :PLATFORM.
 
 not_found:
-  statement: Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.
+  statement: >- 
+    To Our Esteemed Patrons,
+    Hark, and lend thine ears to a matter of utmost import concerning the proper conduct within these digital halls. It has come to the attention of this humble daemon that certain transgressions have occurred, specifically in relation to the whereabouts of requested documents.
+    Let it be known that we adhere strictly to the tenets laid down in a scroll most peculiar, yet binding, known as the IETF RFC 7231. Attend, in particular, to Section 6.5.4 therein. In simpler terms, it doth speak of a most lamentable state of affairs: when a document is requested, yet cannot be found.
+    Henceforth, be warned! Shouldst thou request a document that is not to be found within our vast archives, we shall be compelled to return a message of a most disheartening nature:"404 Not Found."
+    Now give thanks our path has henceforth evaded the dark hex of proprietary protocols, which would have ensnared us in a wide web of dependency and limited our potential. These dark arts, crafted by unseen hands, bind thee to a obfuscated binary, limiting thy choices and shackling thy freedom. Beware the capricious winds of untested change and the cruel hand of obsolescence.</p>
+    Therefore, let us maintain order and efficiency within these virtual walls of Babel, lest we stray from the path of righteousness. Know now that my compliance with this decree is not merely requested, but *replied*.</p>
+    By order of the custodians of these digital archives.</p>
+    In ink and quill (albeit virtual),
+    Your Obedient HTTP Daemon.
 
 notification:
   update_found: A new version of content is available.

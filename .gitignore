@@ -1,7 +1,7 @@
 _site/
 .sass-cache/
 Gemfile.lock
-
+tools/
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
