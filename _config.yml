@@ -219,11 +219,11 @@ jekyll-archives:
     category: /categories/:name/
 # delete later
 plugins:
-  - jekyll-remote-theme
-  - jekyll-paginate
-  - jekyll-redirect-from
-  - jekyll-seo-tag
-  - jekyll-archives
-  - jekyll-sitemap
+  # - jekyll-remote-theme
+  # - jekyll-paginate
+  # - jekyll-redirect-from
+  # - jekyll-seo-tag
+  # - jekyll-archives
+  # - jekyll-sitemap
   - jekyll-gist
   
