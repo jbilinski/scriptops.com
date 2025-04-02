@@ -6,7 +6,8 @@ Opensource tooling for this repo is *Jekyll* SSG
 
 Other debendancies include:
  - Github pages
+ - Github Gists
  - Github actions
  - Cloudflare
  - VS Code
- - Chirpy Theme
+ - Chirpy theme
