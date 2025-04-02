@@ -7,49 +7,41 @@
       "previewPath": null,
       "fields": [
         {
-          "title": "layout",
-          "name": "layout",
-          "type": "string"
-        },
-        {
-          "title": "title",
+          "title": "Title",
           "name": "title",
           "type": "string"
         },
         {
-          "title": "comments",
-          "name": "comments",
-          "type": "boolean"
-        },
-        {
-          "title": "date",
-          "name": "date",
-          "type": "datetime"
-        },
-        {
-          "title": "description",
+          "title": "Description",
           "name": "description",
           "type": "string"
         },
         {
-          "title": "keywords",
-          "name": "keywords",
-          "type": "string"
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
         },
         {
-          "title": "categories",
-          "name": "categories",
-          "type": "categories"
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
         },
         {
-          "title": "tags",
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "Tags",
           "name": "tags",
           "type": "tags"
         },
         {
-          "title": "preview",
-          "name": "preview",
-          "type": "string"
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
         }
       ]
     }
@@ -59,9 +51,8 @@
   "frontMatter.preview.host": "http://localhost:4000",
   "frontMatter.content.pageFolders": [
     {
-      "title": "_posts",
+      "title": "posts",
       "path": "[[workspace]]/_posts"
     }
-  ],
-  "frontMatter.git.enabled": true
+  ]
 }

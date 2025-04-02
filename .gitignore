@@ -1,8 +1,32 @@
-_site/
-.sass-cache/
+# Bundler cache
+.bundle
+vendor
 Gemfile.lock
-tools/
-node_modules/
+
+# Jekyll cache
+.jekyll-cache
+.jekyll-metadata
+_site
+.sass-cache
+tools
+
+# RubyGems
+*.gem
+
+# NPM dependencies
+node_modules
+package-lock.json
+
+# IDE configurations
+.idea
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+
+# Misc
+_sass/vendors
+assets/js/dist
 
 # Windows image file caches
 Thumbs.db
@@ -23,32 +47,8 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# =========================
-# Operating System Files
-# =========================
-
 # OSX
-# =========================
-
 .DS_Store
 .AppleDouble
 .LSOverride
 
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-scriptops.com.code-workspace

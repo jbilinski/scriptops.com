@@ -1,5 +1,3 @@
 {
-    "recommendations": [
-        "ginfuru.ginfuru-vscode-jekyll-syntax"
-    ]
+  "recommendations": ["ms-vscode-remote.remote-containers"]
 }
