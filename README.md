@@ -9,3 +9,4 @@ Other debendancies include:
  - Github actions
  - Cloudflare
  - VS Code
+ - Chirpy Theme
