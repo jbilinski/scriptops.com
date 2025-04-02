@@ -17,5 +17,5 @@ A few AD and Exchange prerequisites required for Cisco Unified Messaging service
 
 References:
 
-[^1]: 1: Cisco UC reference [http://www.cisco.com/en/US/docs/voice_ip_comm/connection/8x/unified_messaging/guide/85xcucumg020.html#wp1195262](http://www.cisco.com/en/US/docs/voice_ip_comm/connection/8x/unified_messaging/guide/85xcucumg020.html#wp1195262)
+[^1]: 1: Cisco UC reference [https://www.cisco.com/en/US/docs/voice_ip_comm/connection/8x/unified_messaging/guide/85xcucumg020.html#wp1195262](https://www.cisco.com/en/US/docs/voice_ip_comm/connection/8x/unified_messaging/guide/85xcucumg020.html#wp1195262)
 

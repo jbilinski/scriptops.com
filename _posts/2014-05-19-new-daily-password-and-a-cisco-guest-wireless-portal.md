@@ -27,8 +27,8 @@ Here's the full script
 
 References:
 
-[^1]: 1: Cisco WLC reference [http://www.cisco.com/c/en/us/products/wireless/wireless-lan-controller/index.html](http://www.cisco.com/c/en/us/products/wireless/wireless-lan-controller/index.html)
-[^2]: 2: Kiwi CatTools reference [http://www.solarwinds.com/kiwi-cattools.aspx](http://www.solarwinds.com/kiwi-cattools.aspx)
+[^1]: 1: Cisco WLC reference [https://www.cisco.com/c/en/us/products/wireless/wireless-lan-controller/index.html](https://www.cisco.com/c/en/us/products/wireless/wireless-lan-controller/index.html)
+[^2]: 2: Kiwi CatTools reference [https://www.solarwinds.com/kiwi-cattools.aspx](https://www.solarwinds.com/kiwi-cattools.aspx)
 
 
 
