@@ -1,12 +1,19 @@
 ---
 layout: post
-title: "Flush stale Jabber contact cache"
+title: Flush stale Jabber contact cache
 comments: true
-date: "2014-05-07"
-description: "flush stale jabber contact cache"
-keywords: "cisco, jabber, stale contacts"
-categories: [powershell, script, interactive]
-tags: [jabber, cisco, contacts]
+date: 2014-05-07
+description: flush stale jabber contact cache
+keywords: cisco, jabber, stale contacts
+categories:
+    - powershell
+    - script
+    - interactive
+tags:
+    - jabber
+    - cisco
+    - contacts
+slug: flush-stale-jabber-contact-cache
 ---
 
 Some versions of Cisco Jabber have an issue updating contacts that are stored in the local cache.

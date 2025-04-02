@@ -1,12 +1,21 @@
 ---
 layout: post
-title: "Clean-up AD user SIP addresses"
+title: Clean-up AD user SIP addresses
 comments: true
-date: "2013-08-06"
-description: "clean up ad user sip addresses"
-keywords: "powershell, exchange, sip"
-categories: [powershell, script, interactive, reference]
-tags: [exchange, ad, sip, uc]
+date: 2013-08-06
+description: clean up ad user sip addresses
+keywords: powershell, exchange, sip
+categories:
+    - powershell
+    - script
+    - interactive
+    - reference
+tags:
+    - exchange
+    - ad
+    - sip
+    - uc
+slug: clean-ad-user-sip-addresses
 ---
 Here's a method I used during a new UC rollout to make a one-time pass in AD to clean-up inconsistent or missing SIP addresses.
 I found it useful later to ID and correct "broken" accounts.

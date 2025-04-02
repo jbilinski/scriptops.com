@@ -1,12 +1,19 @@
 ---
 layout: post
-title: "Quick Exchange Database Checks"
+title: Quick Exchange Database Checks
 comments: true
-date: "2012-05-07"
-description: "quick exchange database checks"
-keywords: "powershell, exchange, database, size"
-categories: [powershell, script, interactive, reference]
-tags: [exchange, database]
+date: 2012-05-07
+description: quick exchange database checks
+keywords: powershell, exchange, database, size
+categories:
+    - powershell
+    - script
+    - interactive
+    - reference
+tags:
+    - exchange
+    - database
+slug: quick-exchange-database-checks
 ---
 
 Check DB Size and free space

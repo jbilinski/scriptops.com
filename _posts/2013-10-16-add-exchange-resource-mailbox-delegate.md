@@ -1,12 +1,20 @@
 ---
 layout: post
-title: "Add Exchange resource mailbox delegate"
+title: Add Exchange resource mailbox delegate
 comments: true
-date: "2013-10-16"
-description: "add exchange resource mailbox delegate"
-keywords: "powershell, exchange, resource mailbox"
-categories: [powershell, script, interactive, reference]
-tags: [exchange, resource mailbox, delegate]
+date: 2013-10-16
+description: add exchange resource mailbox delegate
+keywords: powershell, exchange, resource mailbox
+categories:
+    - powershell
+    - script
+    - interactive
+    - reference
+tags:
+    - exchange
+    - resource mailbox
+    - delegate
+slug: add-exchange-resource-mailbox-delegate
 ---
 
 This example will add resource mailbox delegate to all existing *RoomMailbox* recipients that start with the string *CargoHold*.

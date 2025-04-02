@@ -1,12 +1,19 @@
 ---
 layout: post
-title: "Force Exchange Address Book Update"
+title: Force Exchange Address Book Update
 comments: true
-date: "2013-06-19"
-description: "force exchange address book update"
-keywords: "powershell, exchange, address book"
-categories: [powershell, script, interactive, reference]
-tags: [exchange, address book]
+date: 2013-06-19
+description: force exchange address book update
+keywords: powershell, exchange, address book
+categories:
+    - powershell
+    - script
+    - interactive
+    - reference
+tags:
+    - exchange
+    - address book
+slug: force-exchange-address-book-update
 ---
 
 

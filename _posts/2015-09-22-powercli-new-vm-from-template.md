@@ -1,12 +1,19 @@
 ---
 layout: post
-title: "PowerCLI new VM from template"
+title: PowerCLI new VM from template
 comments: true
-date: "2015-09-22"
-description: "powercli new vm from template"
-keywords: "powercli, vm"
-categories: [powershell, script, interactive, reference]
-tags: [vm, powercli]
+date: 2015-09-22
+description: powercli new vm from template
+keywords: powercli, vm
+categories:
+    - powershell
+    - script
+    - interactive
+    - reference
+tags:
+    - vm
+    - powercli
+slug: powercli-vm-template
 ---
 
 A reusable PowerCLI snip for creating a basic VMWare machine from template for custom requests and customers without automation.

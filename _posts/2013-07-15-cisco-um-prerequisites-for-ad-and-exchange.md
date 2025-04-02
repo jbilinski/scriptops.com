@@ -1,12 +1,21 @@
 ---
 layout: post
-title: "Cisco UM Prerequisites for AD and Exchange"
+title: Cisco UM Prerequisites for AD and Exchange
 comments: true
-date: "2013-07-15"
-description: "cisco um prerequisites for ad and exchange"
-keywords: "powershell, exchange, cisco uc"
-categories: [powershell, script, interactive, reference]
-tags: [exchange, ad, cisco, messaging]
+date: 2013-07-15
+description: cisco um prerequisites for ad and exchange
+keywords: powershell, exchange, cisco uc
+categories:
+    - powershell
+    - script
+    - interactive
+    - reference
+tags:
+    - exchange
+    - ad
+    - cisco
+    - messaging
+slug: cisco-um-prerequisites-ad-exchange
 ---
 
 A few AD and Exchange prerequisites required for Cisco Unified Messaging service[[^1]].  After SP2 RU3 Exchange throttling policies moved to the mailbox level, so script was required for proper setup.

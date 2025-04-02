@@ -1,12 +1,19 @@
 ---
 layout: post
-title: "Easy AD and Exchange name change"
+title: Easy AD and Exchange name change
 comments: true
-date: "2013-09-09"
-description: "easy ad and exchange name change"
-keywords: "powershell, exchange, ad, rename"
-categories: [powershell, script, interactive, reference]
-tags: [exchange, ad]
+date: 2013-09-09
+description: easy ad and exchange name change
+keywords: powershell, exchange, ad, rename
+categories:
+    - powershell
+    - script
+    - interactive
+    - reference
+tags:
+    - exchange
+    - ad
+slug: easy-ad-exchange-change
 ---
 I often get requests for name changes of established customers. Maintaining the old records as an alias is easy if using an address policy. Here's how I like to do this:
 

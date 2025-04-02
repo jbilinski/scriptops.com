@@ -1,12 +1,19 @@
 ---
 layout: post
-title: "New daily password and a Cisco guest wireless portal"
+title: New daily password and a Cisco guest wireless portal
 comments: true
-date: "2014-05-19"
-description: "new daily password and a cisco guest wireless portal"
-keywords: "cisco, wireless, guest portal"
-categories: [powershell, script, automation]
-tags: [cisco, wireless, guest]
+date: 2014-05-19
+description: new daily password and a cisco guest wireless portal
+keywords: cisco, wireless, guest portal
+categories:
+    - powershell
+    - script
+    - automation
+tags:
+    - cisco
+    - wireless
+    - guest
+slug: daily-password-cisco-guest-wireless-portal
 ---
 
 This script is being used to implement a wireless guest portal with a semi-random password and update an internal website with the current password.

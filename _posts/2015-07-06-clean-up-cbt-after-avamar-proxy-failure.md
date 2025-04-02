@@ -1,12 +1,20 @@
 ---
 layout: post
-title: "Clean up CBT after Avamar proxy failure"
+title: Clean up CBT after Avamar proxy failure
 comments: true
-date: "2015-07-06"
-description: "Clean up CBT after Avamar proxy failure"
-keywords: "powershell, vmware, avamar, cbt, proxy"
-categories: [powershell, script, interactive, reference]
-tags: [avamar, cbt, powercli]
+date: 2015-07-06
+description: Clean up CBT after Avamar proxy failure
+keywords: powershell, vmware, avamar, cbt, proxy
+categories:
+    - powershell
+    - script
+    - interactive
+    - reference
+tags:
+    - avamar
+    - cbt
+    - powercli
+slug: clean-cbt-avamar-proxy-failure
 ---
 
 Using brute-force methods to clean up Avamar VMWare proxy change block tracking and vmdk disconnect failures.

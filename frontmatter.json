@@ -42,6 +42,26 @@
           "title": "Categories",
           "name": "categories",
           "type": "categories"
+        },
+        {
+          "title": "layout",
+          "name": "layout",
+          "type": "string"
+        },
+        {
+          "title": "comments",
+          "name": "comments",
+          "type": "boolean"
+        },
+        {
+          "title": "keywords",
+          "name": "keywords",
+          "type": "string"
+        },
+        {
+          "title": "fmContentType",
+          "name": "fmContentType",
+          "type": "string"
         }
       ]
     }

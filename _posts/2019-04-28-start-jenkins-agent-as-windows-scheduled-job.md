@@ -1,12 +1,21 @@
 ---
 layout: post
-title: "Start Jenkins Agent as a Windows Scheduled Job"
+title: Start Jenkins Agent as a Windows Scheduled Job
 comments: true
-date: "2019-04-28"
-description: "start jenkins agent as a windows scheduled job"
-keywords: "jenkins, windows, agent, pipeline"
-categories: [powershell, tool, script, build, reference]
-tags: [jenkins, agent, windows]
+date: 2019-04-28
+description: start jenkins agent as a windows scheduled job
+keywords: jenkins, windows, agent, pipeline
+categories:
+    - powershell
+    - tool
+    - script
+    - build
+    - reference
+tags:
+    - jenkins
+    - agent
+    - windows
+slug: start-jenkins-agent-windows-scheduled-job
 ---
 
 Running a Jenkins agent on a windows build machine can be unstable at restart or lack needed rights. In some cases you require a console session for interaction with policy restricted hardware. Or, the service wrapper limits JVM rights in a way that prevents compilers or test suites from running. 

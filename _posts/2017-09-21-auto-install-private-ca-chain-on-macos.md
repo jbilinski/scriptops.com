@@ -1,12 +1,22 @@
 ---
 layout: post
-title: "Install CA and Subordinates on MacOS"
+title: Install CA and Subordinates on MacOS
 comments: true
-date: "2017-09-21"
-description: "Script to install a corporate CA and subordinate CA on MacOS"
-keywords: "macos, ca, certificate"
-categories: [powershell, tool, script, build, reference]
-tags: [bash, macos, ca, certificate]
+date: 2017-09-21
+description: Script to install a corporate CA and subordinate CA on MacOS
+keywords: macos, ca, certificate
+categories:
+    - powershell
+    - tool
+    - script
+    - build
+    - reference
+tags:
+    - bash
+    - macos
+    - ca
+    - certificate
+slug: install-ca-subordinates-macos
 ---
 This is a quick fix I wrote for developers to install internal root and subordinate CAs.
 It pulls the root certificate from a web server, verifies the fingerprint, parses and downloads subordinates, and installs them in the MacOS keychain.  It was intended to be run interactively at the command line, but also works well as a machine setup script.
