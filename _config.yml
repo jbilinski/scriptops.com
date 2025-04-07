@@ -113,9 +113,9 @@ comments:
   giscus:
     repo: jbilinski/jbilinski.github.io-discussion
     repo_id: MDEwOlJlcG9zaXRvcnk0MDUyOTQ5MzI=
-    category: Post Discussions
-    category_id: DIC_kwDOGChPVM4B_A0Q
-    mapping: specific
+    category: scriptops.com comments
+    category_id: DIC_kwDOGChPVM4Cou-Y
+    mapping: title
     # term:{{ page.id }}
     strict: 0
     input_position: bottom
