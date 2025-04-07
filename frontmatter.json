@@ -62,6 +62,21 @@
           "title": "fmContentType",
           "name": "fmContentType",
           "type": "string"
+        },
+        {
+          "title": "icon",
+          "name": "icon",
+          "type": "string"
+        },
+        {
+          "title": "order",
+          "name": "order",
+          "type": "number"
+        },
+        {
+          "title": "redirect_to",
+          "name": "redirect_to",
+          "type": "string"
         }
       ]
     }
